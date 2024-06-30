@@ -11,11 +11,8 @@
 
 ```sh
 git clone <repository-url>
-cd assignment
-python3 -m venv venv
-source ./venv/bin/activate
-pip install -r requirements.txt
-docker-compose up --build
+cd assignment_paf
+docker-compose up -d
 
 #Signup (POST /signup/)
 curl -X POST http://localhost:8000/signup/ \
