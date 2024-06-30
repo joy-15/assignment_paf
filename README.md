@@ -4,10 +4,7 @@
 
 ## Setup
 
-1. Clone the repository
-2. Create a virtual environment and activate it
-3. Install dependencies
-4. Start the application using Docker Compose
+Follow the initial commands in the git bash
 
 ```sh
 git clone <repository-url>
